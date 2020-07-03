@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mitchellmarsden.portableworkbench.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CraftingTableMixin",
+    "client.GameOptionsMixin"
+  ],
+  "client": [
+    "client.MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
